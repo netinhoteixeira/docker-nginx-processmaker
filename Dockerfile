@@ -1,6 +1,6 @@
 FROM simplific/nginx-php
 
-ENV PROCESSMAKER_VERSION 3.0.1.7
+ENV PROCESSMAKER_VERSION 3.1.3
 ADD "processmaker-${PROCESSMAKER_VERSION}.tar.gz" /opt/
 ADD files/01-processmaker.conf /etc/nginx/conf.d/01-processmaker.conf
 
